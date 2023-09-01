@@ -27,5 +27,13 @@ public class Circle extends Figure{
     public double getPerimeter() {
         return (2*Math.PI*radius);
     }
+
+    public int getRadius() {
+        return radius;
+    }
+
+    public void setRadius(int radius) {
+        this.radius = radius;
+    }
     
 }

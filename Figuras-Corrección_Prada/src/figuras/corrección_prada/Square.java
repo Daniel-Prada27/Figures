@@ -11,8 +11,18 @@ package figuras.corrección_prada;
  */
 public class Square extends Rectangle{
     
+    private int side;
+    
     public Square(int x, int y, int side) {
         super(x, y, side, side);
+    }
+
+    public int getSide() {
+        return side;
+    }
+
+    public void setSide(int side) {
+        this.side = side;
     }
     
 }

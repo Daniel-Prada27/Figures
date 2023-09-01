@@ -28,5 +28,13 @@ public class Triangle extends Figure {
     public double getPerimeter() {
         return side*3;
     }
+
+    public int getSide() {
+        return side;
+    }
+
+    public void setSide(int side) {
+        this.side = side;
+    }
     
 }
